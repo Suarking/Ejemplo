@@ -1,4 +1,5 @@
 package Vista;
+//COMMENT
 import Controlador.*;
 import java.awt.BorderLayout;
 import java.awt.Color;
