@@ -63,7 +63,7 @@ public class VentanaPrincipal extends JFrame{
  panelDistancia.setBorder(BorderFactory.createTitledBorder("Distancia entre cámaras: 100 metros"));
 
  JLabel etiImagen = new JLabel();
- etiImagen.setIcon(new ImageIcon("RadarTramo.jpg"));
+ etiImagen.setIcon(new ImageIcon(getClass().getResource("RadarTramo.jpg")));
 
  panelDistancia.add(etiImagen);
 
